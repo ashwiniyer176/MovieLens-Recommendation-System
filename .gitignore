@@ -8,6 +8,7 @@ __pycache__/
 
 # Data files
 *.csv
+ml-100k
 
 # Distribution / packaging
 .Python
