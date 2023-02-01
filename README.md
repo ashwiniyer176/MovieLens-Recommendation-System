@@ -1,35 +1,13 @@
-# Problem Statement 
-This should be a brief description of the domain of your dataset (e.g. if it is the Titanic Dataset then write about the ship, the incident that happened, what you're trying to do with the data). You can go check out the accompanying blog, [A Machine Learning Project Structure for Everyone!](https://medium.com/@ashwiniyer1706/a-machine-learning-project-structure-for-everyone-e48a81d0bb63)
+# Generating Embeddings for Deep Learning Based Recommender Systems
 
+This repository contains all the code in relation to the topic of generating embeddings for the purpose of recommendations. The goal is to find out what methods of embedding are the most effective and what sort of information when embedded gives the best results.
 
 ## Dataset
 
-The dataset used is the [Name of the Dataset](Download link) from (source of download e.g Kaggle). If the task is a classification task, then you must specify the number of classes and give a 1 line description of each class as follows(example of Iris Dataset). 
-
-The 3 class labels are:
-<br>
-
-**1. Iris Setosa:** Given iris flower belongs to the Setosa species
-<br>
-**2. Iris Virginica:** Given iris flower belongs to the Virginica species
-<br>
-**3. Iris Versicolor:** Given iris flower belongs to the Versicolor species
-
-If the task is a regression task, then explain the target variable and give brief statistics.(e.g. Housing Prices)
-
-**Target Variable: SalePrice**
-<br>
-<br>
-Sale Price refers to the selling price of the house.
-<br>
-**Mean Selling Price:** 121,000$
-<br>
-**Max Selling Price:** 1,000,000$
-<br>
-**Min Selling Price:** 45,000$
+The dataset used is the [GroupLens' MovieLens 100K Dataset](https://grouplens.org/datasets/movielens/). It contains 100K ratings that users have given to movies from 1-5. In addition to this, content metadata and user metadata is available although in different versions of the dataset.
 
 
-## Model(s) Used
+<!-- ## Model(s) Used
 
 This needs to be a description of the model used and a brief overview of how it works in theory (e.g taken of a CNN Model): 
 
@@ -42,4 +20,4 @@ The network architecture used was a basic CNN model, with Max Pooling and ReLU A
 **Max Pooling:** A limitation of the feature map output of Convolutional Layers is that they record the precise position of features in the input. This means that small movements in the position of the feature in the input image will result in a different feature map. This can happen with re-cropping, rotation, shifting, and other minor changes to the input image. A common approach to addressing this problem from signal processing is called down sampling. This is where a lower resolution version of an input signal is created that still contains the large or important structural elements, without the fine detail that may not be as useful to the task.
 
 ## Future Work
-Good ideas or strategies that you were not able to implement which you think can help  improve performance.
+Good ideas or strategies that you were not able to implement which you think can help  improve performance. -->
