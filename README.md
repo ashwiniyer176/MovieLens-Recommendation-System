@@ -6,7 +6,11 @@ This repository contains all the code in relation to the topic of generating emb
 
 The dataset used is the [GroupLens' MovieLens 100K Dataset](https://grouplens.org/datasets/movielens/). It contains 100K ratings that users have given to movies from 1-5. In addition to this, content metadata and user metadata is available although in different versions of the dataset.
 
-
+## Steps to Run
+1. Run Most_Common_Tags Notebook
+2. Run User Metadata Creation notebook
+3. Run Movie Metadata Creation Notebook
+4. Run Final Metadata Creation Notebook
 <!-- ## Model(s) Used
 
 This needs to be a description of the model used and a brief overview of how it works in theory (e.g taken of a CNN Model): 
